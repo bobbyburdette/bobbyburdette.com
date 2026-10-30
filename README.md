@@ -1,2 +1,3 @@
 # bobbyburdette.com
-Just me.
+
+Personal site of Bobby Burdette.

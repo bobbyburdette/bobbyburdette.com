@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bobby Burdette</title>
+<meta name="description" content="Bobby Burdette, Director of UX & Creative Strategy at Thermo Fisher Scientific. Pittsburgh, PA.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="canonical" href="https://bobbyburdette.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231e3a2c'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-weight='800' font-size='30' text-anchor='middle' fill='%23f1ede2'%3EBB%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Bobby Burdette">
+<meta property="og:description" content="Director of UX & Creative Strategy at Thermo Fisher Scientific. Pittsburgh, PA.">
+<meta property="og:url" content="https://bobbyburdette.com/">
+<meta property="og:type" content="profile">
+<meta name="theme-color" content="#1e3a2c">
+<style>
+  :root {
+    --green: #1e3a2c;
+    --linen: #f1ede2;
+    --sage: #a9bba9;
+    --copper: #d08a4e;
+    --line: #335443;
+    --display: "Bricolage Grotesque", "Arial Narrow", sans-serif;
+    --body: "Literata", Georgia, serif;
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --green: #f3f0e6;
+      --linen: #1b3427;
+      --sage: #55705e;
+      --copper: #a85f25;
+      --line: #d5d8c9;
+      color-scheme: light;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--green);
+    color: var(--linen);
+    font: 400 17px/1.7 var(--body);
+  }
+  .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px max(20px, env(safe-area-inset-right)) 36px max(20px, env(safe-area-inset-left));
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .hero { display: flex; flex-direction: column; gap: 18px; }
+  .wrap { position: relative; z-index: 1; }
+  .where { font: 600 14px/1.2 var(--display); color: var(--copper); }
+  h1 {
+    font: 800 clamp(52px, 10vw, 136px)/.92 var(--display);
+    letter-spacing: -.035em;
+    text-wrap: balance;
+  }
+  .role { font: 400 clamp(19px, 2vw, 24px)/1.35 var(--display); color: var(--sage); max-width: 52ch; }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .bio { min-width: 0; }
+  .bio p { max-width: 60ch; }
+  .bio p + p { margin-top: 1em; }
+  .bio .first { font-size: 21px; line-height: 1.55; }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-self: start;
+  }
+  .links h2 {
+    font: 600 13px/1 var(--display);
+    color: var(--sage);
+    margin-bottom: 8px;
+  }
+  .links ul { list-style: none; }
+  .links li + li { margin-top: 4px; }
+  .links a {
+    font: 800 26px/1.25 var(--display);
+    letter-spacing: -.015em;
+    color: var(--linen);
+    text-decoration: none;
+  }
+  .links a::after { content: " →"; color: var(--copper); }
+  .links a:hover, .links a:focus-visible { color: var(--copper); }
+  .links a:focus-visible { outline: 2px solid var(--copper); outline-offset: 4px; }
+  .links .wip { font: 600 26px/1.25 var(--display); color: var(--sage); }
+  .links .wip small { font: 400 14px var(--body); font-style: italic; margin-left: 8px; }
+  footer {
+    font: 400 14px/1.4 var(--display);
+    color: var(--sage);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  @media (min-width: 820px) {
+    .wrap { padding-top: 56px; gap: 88px; }
+    .grid { grid-template-columns: 1fr 280px; gap: 96px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <p class="where">Carnegie, PA · by way of Beckley, WV</p>
+      <h1>Bobby Burdette</h1>
+      <p class="role">Director of UX &amp; Creative Strategy, Thermo Fisher Scientific</p>
+    </header>
+
+    <div class="grid">
+      <div class="bio">
+        <p class="first">I run the Creative Innovation Studio at Thermo Fisher Scientific, the in-house agency behind the Fisher Scientific channel. Brand, digital and commerce for a business that serves labs, hospitals and classrooms.</p>
+        <p>My job is to set the bar, build the team that clears it, and make the business case for design in rooms that would rather talk about spreadsheets.</p>
+        <p>Before Thermo Fisher I worked at Marc USA, DICK'S Sporting Goods, PNC and Michael Baker International. Agency, retail, banking and engineering. That range is why I'm comfortable in any room, with any stakeholder.</p>
+        <p>WVU '98. MS in UX Design from Kent State. Born in Beckley, West Virginia, and based in Carnegie, just outside Pittsburgh.</p>
+        <p>Off the clock it's golf, the Dead, good bourbon and a well-packed pipe.</p>
+      </div>
+
+      <aside class="links">
+        <div>
+          <h2>Find me</h2>
+          <ul><li><a href="https://www.linkedin.com/in/bobbyburdette" rel="me">LinkedIn</a></li></ul>
+        </div>
+        <div>
+          <h2>Side projects</h2>
+          <ul>
+            <li><a href="https://firstlastbest.com" rel="noopener">First Last Best</a></li>
+            <li><span class="wip">Smoke &amp; Sip<small>soon</small></span></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <span>© 2026 Bobby Burdette</span>
+      <span>Pittsburgh, PA</span>
+    </footer>
+  </div>
+</body>
+</html>
